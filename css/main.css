@@ -95,47 +95,76 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 html {
-  background-color: #F2DFD7;
+  background-color: #FEF9FF;
   height: 100%;
   width: 100%;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  padding: 2em;
+  padding: 0 2em;
   font-size: 1em;
   height: 100%;
-}
-
-.welcome h1 {
-    color: #736CED;
-    font-size: 3em;
-}
-
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
+  justify-content: center;
 }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FEF9FF;
+    height: 200px;
+    width: 100%;
+    color: #F395C7;
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #D62598;
+    font-size: 2.25em;
+    background-color: #FEF9FF;
+    height: 250px;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+    max-width: 1200px;
+}
+
+.flex-items {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #FEF9FF;
   line-height: 1.75em;
   font-size: 1.25em;
-  background-color: #9F9FED;
+  background-color: #F395C7;
   height: 300px;
   width: 30%;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEF9FF;
+    height: 300px;
+    width: 100%;
+    color: #F395C7;
+    font-size: 1.5em;
+}
 
 
 
